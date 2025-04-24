@@ -44,7 +44,11 @@ Updates the terminal text color dynamically based on letter accuracy.
 * printGuess(char *guess, int *score):
 Displays the guessed word with colored feedback.
 
+## Data Strustures and Constraints
 
+* The maximum supported word length is 12 characters (modifiable in the source code).
+  
+* The program uses ANSI escape sequences for color output, making it compatible with most Unix-based terminals.
 
 
 
