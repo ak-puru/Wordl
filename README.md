@@ -17,6 +17,13 @@ Efficient Scoring Algorithm: The game properly handles repeated letters to preve
 
 ## How To Run
 
+1. Compile the program using a C compiler such as gcc:
+   gcc -o wordle wordle.c
+3. Execute the compiled program with a target word as a command-line argument:
+   ./wordle <target_word>
+5. Playing the game:
+   The user will be prompted to enter guesses, which must be the same length as the target word. The program provides feedback based on     the accuracy of the guess. If the user fails to guess the word within six attempts, the correct word is revealed.
+
 
 
 
