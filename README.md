@@ -30,7 +30,16 @@ Efficient Scoring Algorithm: The game properly handles repeated letters to preve
     The user will be prompted to enter guesses, which must be the same length as the target word. The program provides feedback based on     the accuracy of the guess. If the user fails to guess the word within six attempts, the correct word is revealed.
 
 
+## Core Functions
 
+* assessGuess(char *guess, char *target, int *scores):
+Compares the guessed word to the target word and assigns scores based on correctness.
+* adjustScore(char *target, int *scores, char *guess, char c):
+Ensures correct handling of repeated letters in scoring.
+* changeColor(const char *color):
+Updates the terminal text color dynamically based on letter accuracy.
+* printGuess(char *guess, int *score):
+Displays the guessed word with colored feedback.
 
 
 
